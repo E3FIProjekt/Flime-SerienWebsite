@@ -35,3 +35,9 @@ Grober Zeitplan in Stunden:
 ===========================
 
 https://github.com/E3FIProjekt/Filme-SerienWebsite.git
+
+
+TMDB api KEY
+API-Schlüssel (v3 auth): 26d85a7ae13d61a5cfc43cb7c21a045d
+Beispielhafte API-Anfrage: https://api.themoviedb.org/3/movie/550?api_key=26d85a7ae13d61a5cfc43cb7c21a045d
+API-Token für Lesezugriff (v4 auth): eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyNmQ4NWE3YWUxM2Q2MWE1Y2ZjNDNjYjdjMjFhMDQ1ZCIsInN1YiI6IjYzMjk4OWNkZGYyOTQ1MDA3YmFjYTNiZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.BXumrZuJ8oFoLPDyL9vfTjvH6xlXYzQoPavaXHiJsZM
