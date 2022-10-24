@@ -1,0 +1,105 @@
+.searchbar{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.vertical-menu {
+    width: 200px;
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+#steuerung {
+    width: 150px;
+    float:left;
+}
+
+#zweite_spalte {
+
+    margin-left: 200px;
+}
+
+.wrapper{
+    display: inline; /* the default for span */
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: yellow;
+}
+
+.vertical{
+    vertical-align: baseline;
+}
+
+.unter{
+    margin-top: -15px;
+}
+
+.textrunter{
+    margin-top: 20px;
+}
+
+.checked {
+
+    color: orange;
+}
+.checked1 {
+
+    color: orange;
+}
+
+.body2 {
+    height: 100%;
+}
+
+.body2 {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.block{
+    display:block;
+}

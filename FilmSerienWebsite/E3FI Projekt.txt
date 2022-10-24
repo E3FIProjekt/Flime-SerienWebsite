@@ -1,0 +1,37 @@
+Projekttitel: Filme/Serien-Webseite
+================================================
+
+
+Kurzbeschreibung Projekt (5-10 Sätze):
+Anhand einer API Filme/Serien auf der Webseite auflisten.
+Der Benutzer hat die Möglichkeit durch verschiedene Filter nach Filmen/Serien zu suchen.
+Es soll angezeigt werden, wie lange die Filme/Seiren z.B. auf Amazon noch verfügbar sind.
+Anmelde- und Bewertungsmöglichkeit für Benutzer.
+======================================
+
+// Hier die W-Fragen, was, womit, wie.... beantworten. 
+Was: Film/Serien-Webseite
+Womit: XAMPP, Visual Studio Code(?)
+API: https://rapidapi.com/category/Movies
+https://rapidapi.com/apidojo/api/imdb8
+https://rapidapi.com/SAdrian/api/moviesdatabase/
+https://rapidapi.com/movie-of-the-night-movie-of-the-night-default/api/streaming-availability/
+https://rapidapi.com/laminesaadi92-RXm-MnhKQy/api/netflix26
+https://rapidapi.com/AMINE1921/api/top-10-movies-of-the-day/
+https://rapidapi.com/Amir-78/api/movies-quotes/
+
+Wie: PHP, HTML, Javascript
+
+
+
+Verwendete Hard-/Software:
+PC, Internet Explorer (RIP)
+==========================
+
+
+
+Grober Zeitplan in Stunden: 
+40-70 Stunden
+===========================
+
+https://github.com/E3FIProjekt/Filme-SerienWebsite.git
