@@ -1,16 +1,57 @@
-const data = null;
+const suche = document.getElementById("suche");
+var test1 = document.getElementById("test");
+var value = suche.value;
+var data;
 
-const xhr = new XMLHttpRequest();
-xhr.withCredentials = true;
+suche.addEventListener(onclick, test());
 
-xhr.addEventListener("readystatechange", function () {
-	if (this.readyState === this.DONE) {
-		console.log(this.responseText);
+function test(){
+	const xmlhttp = new XMLHttpRequest();
+
+	xmlhttp.onload = function() {
+		data = this.responseText;
+		console.log("data" + data);
 	}
+	xmlhttp.open("GET", "index.php"); //q=" + str
+	xmlhttp.send();
+
+}
+console.log(data);
+for(var a =0; a<= data[a].length ; a++){
+	test1.innerHTML= data[a];
+}
+
+document.addEventListener("DOMContentLoaded", function(){
+// make it as accordion for smaller screens
+	if (window.innerWidth > 992) {
+
+		document.querySelectorAll('.navbar .nav-item').forEach(function(everyitem){
+
+			everyitem.addEventListener('mouseover', function(e){
+
+				let el_link = this.querySelector('a[data-bs-toggle]');
+
+				if(el_link != null){
+					let nextEl = el_link.nextElementSibling;
+					el_link.classList.add('show');
+					nextEl.classList.add('show');
+				}
+
+			});
+			everyitem.addEventListener('mouseleave', function(e){
+				let el_link = this.querySelector('a[data-bs-toggle]');
+
+				if(el_link != null){
+					let nextEl = el_link.nextElementSibling;
+					el_link.classList.remove('show');
+					nextEl.classList.remove('show');
+				}
+
+
+			})
+		});
+
+	}
+// end if innerWidth
 });
-
-xhr.open("GET", "https://imdb8.p.rapidapi.com/title/find?q=game%20of%20thr");
-xhr.setRequestHeader("X-RapidAPI-Key", "f7dd01b80cmshbb44046477e6a50p178728jsn12e5bc520b2e");
-xhr.setRequestHeader("X-RapidAPI-Host", "imdb8.p.rapidapi.com");
-
-xhr.send(data);
+// DOMContentLoaded  end
